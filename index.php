@@ -23,7 +23,7 @@ if(isset($_SESSION['userid'])){
     </head>
     <body>
         <input type="hidden" id="u_id" value="<?php echo $user_id ?>">
-        <a href="index.php"><h1 class="webseitenname"> SEFER </h1></a>
+        <a href="index.php"><h1 class="webseitenname">SEFER</h1></a>
         <div class="login">
             <?php if(!empty($msg)){ ?>
             <div>
